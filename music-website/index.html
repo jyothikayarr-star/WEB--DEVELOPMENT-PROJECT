@@ -1,1 +1,202 @@
-music-website using html and css
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Vibes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <h1 class="logo">Music<span>Vibes</span></h1>
+
+        <nav>
+            <a href="#">🏠 Home</a>
+            <a href="#">🔍 Search</a>
+            <a href="#">🎵 Your Library</a>
+            <a href="#">💖 Favorites</a>
+        </nav>
+
+        <h3>Your Playlists</h3>
+        <ul>
+            <li>Chill Vibes</li>
+            <li>Love Songs</li>
+            <li>Workout Mix</li>
+            <li>Study Music</li>
+        </ul>
+    </aside>
+
+    <!-- Main Content -->
+    <main>
+
+        <header>
+            <h2>Good Afternoon 🎧</h2>
+            <input type="text" placeholder="Search songs, artists...">
+        </header>
+
+        <!-- Featured Section -->
+        <section class="featured">
+            <div>
+                <p>FEATURED PLAYLIST</p>
+                <h1>Feel the Music</h1>
+                <p>Your daily dose of music and happiness.</p>
+                <button>Explore Now</button>
+            </div>
+        </section>
+
+        <!-- Recently Played -->
+        <section>
+            <h2>Recently Played</h2>
+
+            <div class="song-list">
+                <div class="song">
+                    <img src="https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=300" alt="Album">
+                    <div>
+                        <h3>Perfect</h3>
+                        <p>Ed Sheeran</p>
+                    </div>
+                </div>
+
+                <div class="song">
+                    <img src="https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=300" alt="Album">
+                    <div>
+                        <h3>Blinding Lights</h3>
+                        <p>The Weeknd</p>
+                    </div>
+                </div>
+
+                <div class="song">
+                    <img src="https://images.unsplash.com/photo-1506157786151-b8491531f063?w=300" alt="Album">
+                    <div>
+                        <h3>Heat Waves</h3>
+                        <p>Glass Animals</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Popular Artists -->
+        <section>
+            <h2>Popular Artists</h2>
+
+            <div class="card-container">
+                <div class="artist-card">
+                    <img src="https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?w=400" alt="Artist">
+                    <h3>Arijit Singh</h3>
+                    <p>Popular Singer</p>
+                </div>
+
+                <div class="artist-card">
+                    <img src="https://images.unsplash.com/photo-1524368535928-5b5e00ddc1d2?w=400" alt="Artist">
+                    <h3>Shreya Ghoshal</h3>
+                    <p>Popular Singer</p>
+                </div>
+
+                <div class="artist-card">
+                    <img src="https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=400" alt="Artist">
+                    <h3>Ed Sheeran</h3>
+                    <p>Pop Artist</p>
+                </div>
+
+                <div class="artist-card">
+                    <img src="https://images.unsplash.com/photo-1524368535928-5b5e00ddc1d2?w=400" alt="Artist">
+                    <h3>Justin Bieber</h3>
+                    <p>Pop Artist</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Albums -->
+        <section>
+            <h2>Trending Albums</h2>
+
+            <div class="card-container">
+                <div class="album-card">
+                    <img src="https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=400" alt="Album">
+                    <h3>Midnight Memories</h3>
+                    <p>Pop Collection</p>
+                </div>
+
+                <div class="album-card">
+                    <img src="https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=400" alt="Album">
+                    <h3>Golden Hour</h3>
+                    <p>Romantic Collection</p>
+                </div>
+
+                <div class="album-card">
+                    <img src="https://images.unsplash.com/photo-1506157786151-b8491531f063?w=400" alt="Album">
+                    <h3>Dreamscape</h3>
+                    <p>Chill Music</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Popular Tracks -->
+        <section>
+            <h2>Popular Tracks</h2>
+
+            <div class="track">
+                <span>01</span>
+                <img src="https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=200" alt="Song">
+                <div>
+                    <h3>Shape of You</h3>
+                    <p>Ed Sheeran</p>
+                </div>
+                <span>3:54</span>
+            </div>
+
+            <div class="track">
+                <span>02</span>
+                <img src="https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=200" alt="Song">
+                <div>
+                    <h3>Stay</h3>
+                    <p>Justin Bieber</p>
+                </div>
+                <span>2:21</span>
+            </div>
+
+            <div class="track">
+                <span>03</span>
+                <img src="https://images.unsplash.com/photo-1506157786151-b8491531f063?w=200" alt="Song">
+                <div>
+                    <h3>Perfect</h3>
+            <p>Ed Sheeran</p>
+                </div>
+                <span>4:23</span>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Music Player -->
+    <div class="player">
+        <div class="current-song">
+            <img src="https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=200" alt="Album">
+            <div>
+                <h3>Perfect</h3>
+                <p>Ed Sheeran</p>
+            </div>
+        </div>
+
+        <div class="controls">
+            <div class="buttons">
+                <button>⏮</button>
+                <button class="play">▶</button>
+                <button>⏭</button>
+            </div>
+            <div class="progress">
+                <span>0:00</span>
+                <input type="range" min="0" max="100" value="30">
+                <span>4:23</span>
+            </div>
+        </div>
+
+        <div class="volume">
+            🔊 <input type="range" min="0" max="100" value="70">
+        </div>
+    </div>
+
+</body>
+</html>
