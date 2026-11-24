@@ -1,1 +1,114 @@
-movie-information-website using css and html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieZone - Movie Information</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <div class="logo">Movie<span>Zone</span></div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#movies">Movies</a>
+            <a href="#trailer">Trailers</a>
+            <a href="#cast">Cast</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>AVATAR: THE WAY OF WATER</h1>
+            <p>Adventure | Sci-Fi | Fantasy</p>
+            <p>2022 | 3h 12m</p>
+            <div class="rating">⭐ 7.6 / 10</div>
+            <a href="#trailer" class="btn">Watch Trailer</a>
+        </div>
+    </section>
+
+    <!-- Movie Information -->
+    <section class="movie-info">
+        <h2>Movie Story</h2>
+        <p>
+            Jake Sully and Neytiri have built a family on Pandora.
+            When an old threat returns, they must protect their children
+            and explore the beautiful oceans of Pandora while facing
+            unexpected challenges.
+        </p>
+    </section>
+
+    <!-- Cast Section -->
+    <section id="cast">
+        <h2>Main Cast</h2>
+        <div class="cast-container">
+
+            <div class="cast-card">
+                <img src="https://image.tmdb.org/t/p/w500/s2h9l4K7.jpg" alt="Actor">
+                <h3>Sam Worthington</h3>
+                <p>Jake Sully</p>
+            </div>
+
+            <div class="cast-card">
+                <img src="https://image.tmdb.org/t/p/w500/actress.jpg" alt="Actress">
+                <h3>Zoe Saldaña</h3>
+                <p>Neytiri</p>
+            </div>
+
+            <div class="cast-card">
+                <img src="https://image.tmdb.org/t/p/w500/actor.jpg" alt="Actor">
+                <h3>Sigourney Weaver</h3>
+                <p>Kiri</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Trailer Section -->
+    <section id="trailer" class="trailer-section">
+        <h2>Movie Trailer</h2>
+        <div class="video-container">
+            <iframe
+                src="https://www.youtube.com/embed/d9MyW72ELq0"
+                title="Avatar The Way of Water Trailer"
+                allowfullscreen>
+            </iframe>
+        </div>
+    </section>
+
+    <!-- Related Movies -->
+    <section id="movies">
+        <h2>Related Movies</h2>
+        <div class="movie-container">
+
+            <div class="movie-card">
+                <img src="https://image.tmdb.org/t/p/w500/8Gxv8gSFCpZ1.jpg" alt="Avatar movie poster">
+                <h3>Avatar</h3>
+                <p>⭐ 7.9/10</p>
+            </div>
+
+            <div class="movie-card">
+                <img src="https://image.tmdb.org/t/p/w500/anothermovie.jpg" alt="Interstellar poster">
+                <h3>Interstellar</h3>
+                <p>⭐ 8.7/10</p>
+            </div>
+
+            <div class="movie-card">
+                <img src="https://image.tmdb.org/t/p/w500/moview.jpg" alt="Dune movie poster">
+                <h3>Dune</h3>
+                <p>⭐ 8.0/10</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 MovieZone | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
